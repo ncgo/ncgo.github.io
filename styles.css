@@ -166,6 +166,18 @@ nav {
     flex-grow: 1;
     align-items: center;
     padding-top: 25vh;
+    display: grid;
+    grid-template-columns: 20% 30% 30%;
+}
+
+a {
+    color: #cc444b;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #550e11;
+    text-decoration: none;
 }
 
 #Projects {
